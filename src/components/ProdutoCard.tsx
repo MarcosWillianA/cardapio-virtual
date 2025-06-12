@@ -7,7 +7,7 @@ import {
   CardContent,
   CardDescription,
   CardFooter,
-  CardHeader,a
+  CardHeader,
   CardTitle,
 } from "@/components/ui/card"
 
@@ -18,16 +18,17 @@ type Props = {
 
 export function ProdutoCard({ produto, onAdicionar }: Props) {
   return (
-    <Card className={`w-full max-w-sm ${produto.tipo === 'lanche' ? 'bg-yellow-200' : 'bg-blue-200'}`}>
+    <Card className={`w-full max-w-sm ${produto.tipo === 'lanche' ? 'bg-red-100' : 'bg-yellow-100'}`}>
       <CardHeader>
-        <CardTitle>{produto.nome}</CardTitle>
-        <CardDescription className="capitalize">
-          {produto.tipo}
-        </CardDescription>
+        <CardTitle className="p-2 bg-red-500 text-white text-center text-xl font-bold">{produto.nome}</CardTitle>
       </CardHeader>
-      <CardContent>
-        Ingredientes: {produto.ingredientes.map((ingrediente) => ingrediente.nome).join(', ')}
-        <p>Preço: R$ {produto.preco.toFixed(2)}</p>
+      <CardContent className="space-y-2">
+        {produto.tipo === 'lanche' && 
+          <p className="text-sm">
+            Ingredientes: {produto.ingredientes.map((ingrediente) => ingrediente.nome).join(', ')}
+          </p>  
+        }
+        <p className="font-semibold">Preço: R$ {produto.preco.toFixed(2)}</p>
       </CardContent>
       <CardFooter className="flex-col gap-2">
         <Button 
