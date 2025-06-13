@@ -6,7 +6,7 @@ export const produtos: Produto[] = [
       nome: 'X-Salada',
       tipo: 'lanche',
       preco: 20.00,
-      imagem: '/imagens/xsalada.png',
+      imagem: '/imagens/xsalada.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -23,7 +23,7 @@ export const produtos: Produto[] = [
       nome: 'X-Bacon',
       tipo: 'lanche',
       preco: 23.00,
-      imagem: '/imagens/xbacon.png',
+      imagem: '/imagens/xbacon.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -39,7 +39,7 @@ export const produtos: Produto[] = [
       nome: 'X-Egg',
       tipo: 'lanche',
       preco: 21.00,
-      imagem: '/imagens/xegg.png',
+      imagem: '/imagens/xegg.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -55,7 +55,7 @@ export const produtos: Produto[] = [
       nome: 'X-Tudo',
       tipo: 'lanche',
       preco: 30.00,
-      imagem: '/imagens/xtudo.png',
+      imagem: '/imagens/xtudo.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -76,7 +76,7 @@ export const produtos: Produto[] = [
       nome: 'Hambúrguer Simples',
       tipo: 'lanche',
       preco: 15.00,
-      imagem: '/imagens/hamburguersimples.png',
+      imagem: '/imagens/hamburguersimples.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -89,7 +89,7 @@ export const produtos: Produto[] = [
       nome: 'Sanduíche Natural de Frango',
       tipo: 'lanche',
       preco: 19.00,
-      imagem: '/imagens/sanduichefrangonatural.png',
+      imagem: '/imagens/sanduichefrangonatural.webp',
       disponivel: true,
       ingredientes: [
         { id: 'paoIntegral', nome: 'Pão integral', disponivel: true },
@@ -105,7 +105,7 @@ export const produtos: Produto[] = [
       nome: 'Sanduíche Vegetariano',
       tipo: 'lanche',
       preco: 18.00,
-      imagem: '/imagens/sanduichevegetariano.png',
+      imagem: '/imagens/sanduichevegetariano.webp',
       disponivel: true,
       ingredientes: [
         { id: 'paoForma', nome: 'Pão de forma', disponivel: true },
@@ -122,7 +122,7 @@ export const produtos: Produto[] = [
       nome: 'X-Bagunça',
       tipo: 'lanche',
       preco: 28.00,
-      imagem: '/imagens/xbagunca.png',
+      imagem: '/imagens/xbagunca.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -143,7 +143,7 @@ export const produtos: Produto[] = [
       nome: 'X-Frango',
       tipo: 'lanche',
       preco: 22.00,
-      imagem: '/imagens/xfrango.png',
+      imagem: '/imagens/xfrango.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -158,7 +158,7 @@ export const produtos: Produto[] = [
       nome: 'X-Peixe',
       tipo: 'lanche',
       preco: 24.00,
-      imagem: '/imagens/xpeixe.png',
+      imagem: '/imagens/xpeixe.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -173,7 +173,7 @@ export const produtos: Produto[] = [
       nome: 'X-Tropical',
       tipo: 'lanche',
       preco: 25.00,
-      imagem: '/imagens/xtropical.png',
+      imagem: '/imagens/xtropical.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -190,7 +190,7 @@ export const produtos: Produto[] = [
       nome: 'X-Duplo',
       tipo: 'lanche',
       preco: 26.00,
-      imagem: '/imagens/xduplo.png',
+      imagem: '/imagens/xduplo.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -207,7 +207,7 @@ export const produtos: Produto[] = [
       nome: 'Misto Simples',
       tipo: 'lanche',
       preco: 10.00,
-      imagem: '/imagens/misto.png',
+      imagem: '/imagens/misto.webp',
       disponivel: true,
       ingredientes: [
         { id: 'paoForma', nome: 'Pão de forma', disponivel: true },
@@ -220,7 +220,7 @@ export const produtos: Produto[] = [
       nome: 'X-Bauru',
       tipo: 'lanche',
       preco: 22.00,
-      imagem: '/imagens/xbauru.png',
+      imagem: '/imagens/xbauru.webp',
       disponivel: true,
       ingredientes: [
         { id: 'paoFrances', nome: 'Pão francês', disponivel: true },
@@ -235,7 +235,7 @@ export const produtos: Produto[] = [
       nome: 'X-Calabresa',
       tipo: 'lanche',
       preco: 20.00,
-      imagem: '/imagens/xcalabresa.png',
+      imagem: '/imagens/xcalabresa.webp',
       disponivel: true,
       ingredientes: [
         { id: 'pao', nome: 'Pão', disponivel: true },
@@ -248,7 +248,7 @@ export const produtos: Produto[] = [
         nome: 'Batata Frita',
         tipo: 'lanche',
         preco: 10.00,
-        imagem: '/imagens/batatafrita.png',
+        imagem: '/imagens/batatafrita.webp',
         disponivel: true,
         ingredientes: [
           { id: 'batata', nome: 'Batata', disponivel: true },
