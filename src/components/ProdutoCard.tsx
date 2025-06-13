@@ -10,6 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import Image from 'next/image';
 
 type Props = {
     produto: Produto;
@@ -21,6 +22,17 @@ export function ProdutoCard({ produto, onAdicionar }: Props) {
     <Card className={`w-full max-w-sm ${produto.tipo === 'lanche' ? 'bg-red-100' : 'bg-yellow-100'}`}>
       <CardHeader>
         <CardTitle className="p-2 bg-red-500 text-white text-center text-xl font-bold">{produto.nome}</CardTitle>
+        {produto.tipo === 'lanche' && 
+          <div>
+            <Image
+              src={produto.imagem}
+              alt={produto.nome}
+              width={300}
+              height={250}
+              className="w-full"
+            />
+          </div>        
+        }
       </CardHeader>
       <CardContent className="space-y-2">
         {produto.tipo === 'lanche' && 

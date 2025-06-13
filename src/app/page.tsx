@@ -36,7 +36,7 @@ export default function Home() {
                 Escolha aqui os melhores lanches da cidade
               </CardDescription>
             </CardHeader>
-            <CardContent className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 ">
+            <CardContent className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 m-auto">
               {produtos.filter((produto) => produto.tipo === "lanche").map((produto) => (
                 <ProdutoCard key={produto.id} produto={produto} />
               ))}
@@ -44,14 +44,14 @@ export default function Home() {
           </Card>
         </TabsContent>
         <TabsContent value="bebida">
-          <Card className="w-full">
+          <Card>
             <CardHeader>
               <CardTitle>Bebidas</CardTitle>
               <CardDescription>
                 Escolha aqui as bebidas mais refrescantes da cidade
               </CardDescription>
             </CardHeader>
-            <CardContent className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 ">
+            <CardContent className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mx-auto">
               {produtos.filter((produto) => produto.tipo === 'bebida').map((produto) => (
                 <ProdutoCard key={produto.id} produto={produto} />
               ))}

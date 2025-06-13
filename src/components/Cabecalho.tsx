@@ -1,6 +1,9 @@
 
+
 import { HamburgerIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
+
 
 export default function Cabecalho() {
     return (
@@ -17,8 +20,13 @@ export default function Cabecalho() {
                 <div className="flex justify-center items-center">
                     <h1 className="text-3xl text-red-500 font-bold text-center">Morte Lenta Lanches</h1>
                 </div>
-                <div className="justify-self-end flex items-center justify-center w-30 h-30 p-2 border border-white rounded-md ">
-                    <p className="text-center">Aqui terá uma imagem de logo</p>
+                <div className="justify-self-end flex items-center justify-center w-[120px] h-[120px] p-2 border border-white rounded-md relative">
+                    <Image 
+                        src="/imagens/logomortelentalanches.webp"
+                        alt="Logomarca Morte Lenta Lanches"
+                        fill
+                        className="object-contain"
+                    />
                 </div>
             </div>
         </section>
