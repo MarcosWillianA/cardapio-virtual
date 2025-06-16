@@ -12,7 +12,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { Plus, X } from "lucide-react";
+import { Badge } from "@/components/ui/badge"
+import { Check, X } from "lucide-react";
 
 type Props = {
     produto: Produto;
@@ -44,16 +45,25 @@ export function DetalhesProduto({ produto }: Props) {
                                     {ingrediente.nome}
                                 </p>
                                 <div className="flex gap-2">
-                                    <Button className="bg-green-500 active:bg-green-400">
-                                        <Plus />
-                                    </Button>
-                                    <Button className="bg-red-500 active:bg-red-400">
-                                        <X />
-                                    </Button>
+                                    <Badge className={`rounded-full ${ingrediente.disponivel ? "bg-green-500" : "bg-red-500"}`}>
+                                        {ingrediente.disponivel ? <Check /> : <X />}
+                                    </Badge>
                                 </div>
                             </li>                            
                         ))}
                     </ul>
+                    <div className="flex flex-col gap-2 py-2">
+                        <h3 className="text-lg ">Observações:</h3>
+                        <textarea 
+                            className="w-full p-2 rounded-md border-border-slate-500 text-sm bg-slate-200 resize-none"
+                            name="observacoes" 
+                            id="observacoes"
+                            rows="4"
+                            placeholder="Ex.: Sem tomate, bem-passado, mais queijo, etc..."
+                        >
+                        </textarea>
+
+                    </div>
                     <div className="py-2">
                         <p className="text-md font-bold">
                             Preço: {produto.preco.toFixed(2)}

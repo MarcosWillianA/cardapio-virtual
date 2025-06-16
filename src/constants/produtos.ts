@@ -17,6 +17,13 @@ export const produtos: Produto[] = [
         { id: 'milho', nome: 'Milho', disponivel: true },
         { id: 'batataPalha', nome: 'Batata palha', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xbacon',
@@ -33,6 +40,13 @@ export const produtos: Produto[] = [
         { id: 'alface', nome: 'Alface', disponivel: true },
         { id: 'tomate', nome: 'Tomate', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xegg',
@@ -49,6 +63,13 @@ export const produtos: Produto[] = [
         { id: 'alface', nome: 'Alface', disponivel: true },
         { id: 'tomate', nome: 'Tomate', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xtudo',
@@ -70,6 +91,13 @@ export const produtos: Produto[] = [
         { id: 'milho', nome: 'Milho', disponivel: true },
         { id: 'batataPalha', nome: 'Batata palha', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'hamburguerSimples',
@@ -83,6 +111,13 @@ export const produtos: Produto[] = [
         { id: 'hamburguerCarne', nome: 'Hambúrguer de carne', disponivel: true },
         { id: 'queijoMussarela', nome: 'Queijo mussarela', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'sanduicheFrangoNatural',
@@ -99,6 +134,13 @@ export const produtos: Produto[] = [
         { id: 'alface', nome: 'Alface', disponivel: true },
         { id: 'tomate', nome: 'Tomate', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'sanduicheVegetariano',
@@ -116,6 +158,13 @@ export const produtos: Produto[] = [
         { id: 'cenoura', nome: 'Cenoura', disponivel: true },
         { id: 'pepino', nome: 'Pepino', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xbagunca',
@@ -137,6 +186,13 @@ export const produtos: Produto[] = [
         { id: 'cebola', nome: 'Cebola', disponivel: true },
         { id: 'azeitona', nome: 'Azeitona', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xfrango',
@@ -152,6 +208,13 @@ export const produtos: Produto[] = [
         { id: 'alface', nome: 'Alface', disponivel: true },
         { id: 'tomate', nome: 'Tomate', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xpeixe',
@@ -167,6 +230,13 @@ export const produtos: Produto[] = [
         { id: 'alface', nome: 'Alface', disponivel: true },
         { id: 'tomate', nome: 'Tomate', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xtropical',
@@ -184,6 +254,13 @@ export const produtos: Produto[] = [
         { id: 'alface', nome: 'Alface', disponivel: true },
         { id: 'tomate', nome: 'Tomate', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xduplo',
@@ -201,6 +278,13 @@ export const produtos: Produto[] = [
         { id: 'alface', nome: 'Alface', disponivel: true },
         { id: 'tomate', nome: 'Tomate', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'mistoSimples',
@@ -214,6 +298,13 @@ export const produtos: Produto[] = [
         { id: 'queijoMussarela', nome: 'Queijo mussarela', disponivel: true },
         { id: 'presunto', nome: 'Presunto', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xbauru',
@@ -229,6 +320,13 @@ export const produtos: Produto[] = [
         { id: 'tomate', nome: 'Tomate', disponivel: true },
         { id: 'picles', nome: 'Picles', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
       id: 'xcalabresa',
@@ -242,6 +340,13 @@ export const produtos: Produto[] = [
         { id: 'linguicaCalabresa', nome: 'Linguiça calabresa', disponivel: true },
         { id: 'queijoMussarela', nome: 'Queijo mussarela', disponivel: true },
       ],
+      adicionais: [
+        { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+        { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+        { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+        { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+        { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+      ]
     },
     {
         id: 'batataFrita',
@@ -253,54 +358,55 @@ export const produtos: Produto[] = [
         ingredientes: [
           { id: 'batata', nome: 'Batata', disponivel: true },
         ],
+        adicionais: [
+          { id: 'alface', nome: 'Alface', preco: 2.00, disponivel: true },
+          { id: 'tomate', nome: 'Tomate', preco: 2.00, disponivel: true },
+          { id: 'cebola', nome: 'Cebola', preco: 2.00, disponivel: true },
+          { id: 'azeitona', nome: 'Azeitona', preco: 2.00, disponivel: true },
+          { id: 'picles', nome: 'Picles', preco: 2.00, disponivel: true },
+        ]
     },
     {
       id: 'coca200ml',
       nome: 'Coca-Cola 200ml',
       tipo: 'bebida',
       preco: 5.00,
-      disponivel: true,
-      ingredientes: [],
+      disponivel: true,      
     },
     {
       id: 'coca350ml',
       nome: 'Coca-Cola 350ml',
       tipo: 'bebida',
       preco: 6.00,
-      disponivel: true,
-      ingredientes: [],
+      disponivel: true,      
     },
     {
       id: 'coca600ml',
       nome: 'Coca-Cola 600ml',
       tipo: 'bebida',
       preco: 8.00,
-      disponivel: true,
-      ingredientes: [],
+      disponivel: true,      
     },
     {
       id: 'coca1l',
       nome: 'Coca-Cola 1L',
       tipo: 'bebida',
       preco: 10.00,
-      disponivel: true,
-      ingredientes: [],
+      disponivel: true,      
     },
     {
       id: 'coca1_5l',
       nome: 'Coca-Cola 1.5L',
       tipo: 'bebida',
       preco: 12.00,
-      disponivel: true,
-      ingredientes: [],
+      disponivel: true,      
     },
     {
       id: 'coca2l',
       nome: 'Coca-Cola 2L',
       tipo: 'bebida',
       preco: 14.00,
-      disponivel: true,
-      ingredientes: [],
+      disponivel: true,      
     },    
     {
       id: 'guarana350ml',
@@ -308,7 +414,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 6.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'guarana600ml',
@@ -316,7 +421,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 8.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'guarana1l',
@@ -324,7 +428,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 10.00,
       disponivel: true,
-      ingredientes: [],
     },    
     {
       id: 'guarana2l',
@@ -332,7 +435,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 14.00,
       disponivel: true,
-      ingredientes: [],
     },    
     {
       id: 'soda600ml',
@@ -340,7 +442,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 7.50,
       disponivel: true,
-      ingredientes: [],
     },        
     {
       id: 'fantaLaranja350ml',
@@ -348,7 +449,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 6.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'fantaUva350ml',
@@ -356,7 +456,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 6.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoLaranja300ml',
@@ -364,7 +463,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 7.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoLaranja500ml',
@@ -372,7 +470,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 9.00,
       disponivel: true,
-      ingredientes: [],
     },      
     {
       id: 'sucoMaracuja300ml',
@@ -380,7 +477,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 7.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoMaracuja500ml',
@@ -388,7 +484,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 9.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoAcerola300ml',
@@ -396,7 +491,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 7.50,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoAcerola500ml',
@@ -404,7 +498,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 9.50,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoGraviola300ml',
@@ -412,7 +505,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 8.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoGraviola500ml',
@@ -420,7 +512,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 10.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoCupuacu300ml',
@@ -428,7 +519,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 8.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoCupuacu500ml',
@@ -436,7 +526,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 10.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoAbacaxiMenta300ml',
@@ -444,7 +533,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 8.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoAbacaxiMenta500ml',
@@ -452,7 +540,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 10.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoMaracujaLeite300ml',
@@ -460,7 +547,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 8.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'sucoMaracujaLeite500ml',
@@ -468,7 +554,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 10.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'aguaSemGas',
@@ -476,7 +561,6 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 4.00,
       disponivel: true,
-      ingredientes: [],
     },
     {
       id: 'aguaComGas',
@@ -484,6 +568,5 @@ export const produtos: Produto[] = [
       tipo: 'bebida',
       preco: 4.50,
       disponivel: true,
-      ingredientes: [],
     },
   ];
