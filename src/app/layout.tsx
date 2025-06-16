@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className={poppins.variable}>
       <body
-        className="min-w-80 max-w-3xl m-auto border border-red-500 font-sans"
+        className="min-w-80 max-w-6xl m-auto border border-red-500 font-sans relative z-0"
       >
         <header>
           <Cabecalho />

@@ -122,8 +122,17 @@
   }
   html {
     font-family: var(--font-poppins), sans-serif;
+    scrollbar-gutter: stable;    
   }
   body {
     @apply bg-background text-foreground;
   }
+
+  body.overflow-hidden {
+    padding-right: 15px; /* ou 16px, dependendo do sistema operacional */
+  }
+}
+
+html {
+  scrollbar-gutter: stable;
 }

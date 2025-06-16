@@ -21,7 +21,7 @@ import { Hamburger, CupSoda } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className="p-2">
+    <div className="w-full min-h-screen max-w-6xl mx-auto p-2">
       <h1 className="text-center text-3xl font-bold">Cardápio</h1>
       <Tabs defaultValue="lanche" className="w-full my-6 mx-auto">
         <TabsList className="m-auto">

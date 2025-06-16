@@ -21,10 +21,10 @@ type Props = {
 export function DetalhesProduto({ produto }: Props) {
     return (
         <Dialog>
-            <DialogTrigger>
-                <Button className="bg-green-500 active:bg-400">Detalhes</Button>
+            <DialogTrigger asChild>
+                <Button className="w-full bg-green-500 active:bg-400">Detalhes</Button>
             </DialogTrigger>            
-            <DialogContent>
+            <DialogContent className="overflow-y-auto max-h-[90vh]">
                 <DialogHeader>
                     <DialogTitle>{produto.nome}</DialogTitle>
                     {produto.tipo === "lanche" && (
@@ -34,13 +34,16 @@ export function DetalhesProduto({ produto }: Props) {
                     )}
                 </DialogHeader>
                 <div>
-                    <ul>
+                    <ul className="space-y-2 border-collapse">
                         {produto.ingredientes.map((ingrediente) => (
-                            <li key={ingrediente.id}>
-                                <p className={`${ingrediente.disponivel ? "text-green-500" : "text-red-500 line-throught"}`}>
+                            <li 
+                                key={ingrediente.id}
+                                className="flex flex-nowrap justify-between items-center "
+                            >
+                                <p className={`text-sm ${ingrediente.disponivel ? "text-green-500" : "text-red-500 line-throught"}`}>
                                     {ingrediente.nome}
                                 </p>
-                                <div>
+                                <div className="flex gap-2">
                                     <Button className="bg-green-500 active:bg-green-400">
                                         <Plus />
                                     </Button>
@@ -48,9 +51,14 @@ export function DetalhesProduto({ produto }: Props) {
                                         <X />
                                     </Button>
                                 </div>
-                            </li>
+                            </li>                            
                         ))}
                     </ul>
+                    <div className="py-2">
+                        <p className="text-md font-bold">
+                            Preço: {produto.preco.toFixed(2)}
+                        </p>
+                    </div>
                 </div>
                 <DialogFooter>
                     <Button className="bg-green-500 active:bg-green-400" type="submit">

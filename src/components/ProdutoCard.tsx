@@ -11,6 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Image from 'next/image';
+import { DetalhesProduto } from './DetalhesProduto';
 
 type Props = {
     produto: Produto;
@@ -43,13 +44,7 @@ export function ProdutoCard({ produto, onAdicionar }: Props) {
         <p className="font-semibold">Preço: R$ {produto.preco.toFixed(2)}</p>
       </CardContent>
       <CardFooter className="flex-col gap-2">
-        <Button 
-          type="submit" 
-          className="w-full py-2 px-4 bg-green-600 hover:bg-green-500 text-white  rounded"
-          onClick={() => onAdicionar?.(produto)}
-        >
-          Adicionar Item
-        </Button>        
+        <DetalhesProduto produto={produto} />
       </CardFooter>
     </Card>
   )
